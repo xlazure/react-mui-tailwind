@@ -13,7 +13,6 @@ import {
   CardContent,
   CardMedia,
   Container,
-  Paper,
   Typography,
 } from "@mui/material";
 
@@ -28,7 +27,7 @@ export default function OlMinicart() {
           justifyContent: "space-between",
         }}
       >
-        <Box sx={{ display: "flex", width: "60%", gap: 3 }}>
+        <Box className="" sx={{ display: "flex", width: "60%", gap: 3 }}>
           <Typography
             variant="h1"
             sx={{ fontSize: 16, fontWeight: "bold" }}
@@ -236,24 +235,4 @@ export default function OlMinicart() {
       </Box>
     </Container>
   );
-}
-
-{
-  /* 
- <Card sx={{ maxWidth: 360 }}>
-    Page 1
-    <div className="w-3/4 mx-auto mt-5">
-      <div className="container mx-auto px-4  border-2 border-black ">
-        <Typography variant="h2" className="text-center">
-          {state ? "hello" : "world"}
-        </Typography>
-      </div>
-      <div className="my-2 flex justify-center">
-        <Button variant="contained" onClick={() => setState(!state)}>
-          Hello World
-        </Button>
-      </div>
-    </div>
-  </Card> 
-*/
 }
