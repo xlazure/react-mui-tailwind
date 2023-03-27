@@ -17,7 +17,7 @@ function App() {
           </Switch>
         </BrowserRouter>
       }
-      footer={<></>}
+      footer={<>1</>}
     />
   );
 }
